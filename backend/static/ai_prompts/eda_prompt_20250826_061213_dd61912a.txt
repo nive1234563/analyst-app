@@ -1,0 +1,1 @@
+Analyze transaction patterns by store location and product type.

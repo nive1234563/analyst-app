@@ -1,0 +1,36 @@
+# set python interpreter to 3.11
+
+# do : 
+# cd <your-project-folder>
+# py -3.11 -m venv .venv
+# .venv\Scripts\Activate.ps1
+# python -m pip install --upgrade pip setuptools wheel
+# pip install -r requirements.txt
+
+# uvicorn main:app --reload --port 8000
+
+
+
+
+
+# core
+fastapi==0.110.0
+uvicorn[standard]==0.30.0
+pandas==2.2.2
+numpy==1.26.4
+pydantic==2.7.1
+jinja2==3.1.4
+
+# EDA
+ydata-profiling==4.8.3
+sweetviz==2.3.1
+
+matplotlib==3.8.4
+
+statsmodels==0.14.2
+scikit-learn==1.5.1
+lightgbm==4.5.0
+econml==0.15.1
+# optional
+#causalai==0.13.0
+

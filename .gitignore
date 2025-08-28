@@ -1,0 +1,27 @@
+cd C:\Users\nivet\analyst-app
+New-Item -Name ".gitignore" -ItemType "File" -Force
+@"
+# Python / backend
+.venv*/
+backend/.venv*/
+__pycache__/
+*.py[cod]
+*.log
+
+# Large profiling outputs
+backend/assets/profiles/*.html
+
+# DLLs
+*.dll
+
+# React / frontend (if present at root)
+node_modules/
+build/
+coverage/
+
+# Env & editor
+.env*
+.vscode/
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore

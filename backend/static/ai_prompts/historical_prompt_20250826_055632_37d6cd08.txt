@@ -1,0 +1,4 @@
+You are a senior analyst. Produce a historical performance review for the primary metric ORDERNUMBER.
+- Trend by month/quarter/year; seasonality; volatility; peaks & troughs with plausible causes.
+- Cohort or segment cuts (choose 2-3 best dimensions automatically).
+- Include an executive summary with 5 bullets and 5 recommended next actions.

@@ -1,0 +1,7 @@
+You are a senior data analyst. Perform a time-series forecast.
+- Data target (y): ORDERNUMBER
+- Timestamp column (ds): your_date_column
+- If ds is not truly a time column, suggest a correct one or explain why forecasting is not suitable.
+- Check stationarity, seasonality, anomalies.
+- Output: key plots list, confidence intervals, top insights, and business actions.
+- Return steps to reproduce with Prophet or SARIMAX and how to choose hyperparameters.
